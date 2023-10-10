@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Denpasar SmartCity | Pariwisata</title>
+</head>
+<body>
+
+    <header>
+    
+        <img src="gambar/DENPASAR-removebg-preview.png" class="brand" alt="">
+        <div class="menu-btn">
+
+        </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html">Home</a>
+                <a href="index.html">Layanan</a>
+                <a href="pariwisata.html">Pariwisata</a>
+                <a href="#">Transportasi</a>
+                <a href="#">Pengaduan</a>
+                <a href="#">Informasi</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="Home">
+        <video class="video-slide" src="gambar/video 1.mp4" autoplay muted loop></video>
+
+
+        <div class="content">
+            <h1>Layanan<br><span>DENPASAR</span></h1>
+            <p>Berikut merupakan daftar tempat pariwisata terbaik di denpasar</p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+    
+    <section class="feature">
+        <h2>LAYANAN KOTA DENPASAR</h2>
+        <div class="feature-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="gambar/profile.png" alt="">
+                </div>
+                <h4>profile</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="pariwisata.html"><img src="gambar/Pariwisata.png" alt=""></a>
+                </div>
+                <h4>Pariwisata</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="gambar/Berita.png" alt="">
+                </div>
+                <h4>Berita</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="gambar/satu data.png" alt="">
+                </div>
+                <h4>Satu Data</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="#"><img src="gambar/informasi.png" alt=""></a>
+                </div>
+                <h4>Informasi</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="layanan.html"><img src="gambar/contact.png" alt=""></a>
+                </div>
+                <h4>contact</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="layanan.html"><img src="gambar/contact.png" alt=""></a>
+                </div>
+                <h4>contact</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="layanan.html"><img src="gambar/contact.png" alt=""></a>
+                </div>
+                <h4>contact</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="layanan.html"><img src="gambar/contact.png" alt=""></a>
+                </div>
+                <h4>contact</h4>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <a href="layanan.html"><img src="gambar/contact.png" alt=""></a>
+                </div>
+                <h4>contact</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <p class="wm">© copyright 2023 Globaliti Denpasar</p>
+
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const header = document.querySelector("header");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+
+        window.addEventListener("scroll", function() {
+            header.classList.toggle("sticky", window.scrollY > 60)
+        });
+    </script>
+</body>
+</html>
